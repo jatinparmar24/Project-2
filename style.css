@@ -1,0 +1,221 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  position: fixed;
+  background-color: red;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgb(226, 105, 105);
+}
+#head .he {
+  font-size: 45px;
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+#head .he:hover {
+  color: blue;
+}
+#head .ad ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 25px;
+  gap: 30px;
+  list-style: none;
+  margin-top: 20px;
+  margin-right: 70px;
+}
+#head .ad ul a {
+  text-decoration: none;
+  color: white;
+}
+#head .ad ul a:hover {
+  color: green;
+}
+
+#sec1 {
+  width: 100%;
+  height: 70vh;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  top: 70px;
+}
+#sec1 .fi {
+  width: 40%;
+  height: 100%;
+  font-size: 45px;
+  text-align: left;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+#sec1 .fi span {
+  font-size: 65px;
+}
+#sec1 .fi button {
+  font-size: 20px;
+  padding: 10px;
+}
+#sec1 .fi button:hover {
+  background-color: red;
+  color: white;
+}
+#sec1 .se {
+  width: 40%;
+  height: 569px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-image: url(images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#sec2 {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#sec2 .ph {
+  border: 1px solid black;
+  width: 700px;
+  height: 100%;
+  margin-left: 10px;
+  background-image: url(images/about.jpg);
+}
+#sec2 .hp {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 200px;
+}
+#sec2 .hp button {
+  font-size: 20px;
+  padding: 10px;
+}
+#sec2 .hp button:hover {
+  background-color: red;
+  color: white;
+}
+
+#last {
+  width: 100%;
+  height: 35vh;
+  color: white;
+  background-color: red;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+#last .te {
+  font-size: 30px;
+  padding-top: 40px;
+}
+#last .tw {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  font-size: 25px;
+}
+#last .tr {
+  border-bottom: 1px solid rgb(226, 105, 105);
+}
+#last .tr b i {
+  font-size: 40px;
+}
+
+#talk {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+
+#talk2 {
+  width: 100%;
+  height: 50vh;
+  font-size: 25px;
+  border: 2px solid red;
+  background-color: red;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#talk2 h1 span {
+  color: black;
+  font-size: 60px;
+}
+#talk2 button {
+  font-size: 30px;
+  padding: 3px;
+}
+#talk2 button:hover {
+  background-color: red;
+  color: white;
+  font-size: 30px;
+}
+
+#str {
+  width: 100%;
+  height: 70vh;
+}
+
+#str1 {
+  width: 100%;
+  height: 50vh;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding: 3%;
+  position: absolute;
+  top: 270px;
+  text-align: center;
+  font-size: 25px;
+}
+#str1 span {
+  color: black;
+}
+#str1 button {
+  font-size: 25px;
+  padding: 10px;
+}
+#str1 button:hover {
+  background-color: red;
+  color: white;
+}
+
+#set {
+  width: 100%;
+  height: 100vh;
+}
+#set .set1 {
+  text-align: center;
+  align-items: center;
+  font-size: 35px;
+  margin-top: 25%;
+}
+#set .set1 button {
+  font-size: 20px;
+  padding: 8px;
+}/*# sourceMappingURL=style.css.map */

@@ -207,15 +207,161 @@
 
 #set {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
 }
 #set .set1 {
   text-align: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 30px;
   margin-top: 25%;
 }
 #set .set1 button {
   font-size: 20px;
   padding: 8px;
+}
+
+#top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#top #de1 {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url(images/portfolio-1.jpg);
+}
+#top #de1 .ed1 {
+  position: relative;
+  top: 270px;
+  left: 40px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 250px;
+  height: 50px;
+}
+#top #de2 {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url(images/portfolio-2.jpg);
+}
+#top #de2 .ed2 {
+  position: relative;
+  top: 270px;
+  left: 40px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 250px;
+  height: 50px;
+}
+#top #de3 {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url(images/portfolio-1.jpg);
+}
+#top #de3 .ed3 {
+  position: relative;
+  top: 270px;
+  left: 40px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 250px;
+  height: 50px;
+}
+
+#bott {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#bott #de4 {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url(images/portfolio-4.jpg);
+}
+#bott #de4 .ed4 {
+  position: relative;
+  top: 270px;
+  left: 40px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 250px;
+  height: 50px;
+}
+#bott #de5 {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url(images/portfolio-5.jpg);
+}
+#bott #de5 .ed5 {
+  position: relative;
+  top: 270px;
+  left: 40px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 250px;
+  height: 50px;
+}
+#bott #de6 {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+  background-image: url(images/portfolio-6.jpg);
+}
+#bott #de6 .ed6 {
+  position: relative;
+  top: 270px;
+  left: 40px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 250px;
+  height: 50px;
+}
+
+#tee {
+  width: 100%;
+  height: 80vh;
+}
+#tee .eet {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding: 3%;
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+}
+#tee .eet span {
+  color: black;
+  font-size: 45px;
+}
+#tee .eet button {
+  font-size: 25px;
+  padding: 10px;
+}
+#tee .eet button:hover {
+  background-color: red;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -416,13 +416,14 @@
     }
 }
 }
-
+// portfolio ends here 
 // team html starts here 
 #poi{
     width: 100%;
     height: 100vh;
     padding-top: 100px;
     text-align: center;
+    font-size: 20px;
 }
 #merge{
     display: flex;
@@ -430,18 +431,40 @@
     text-align: left;
     flex-wrap: wrap;
 
+    .oi1{
+        justify-content: space-between;
+
+        b{
+            i{
+                font-size: 40px;
+            }
+        }
+      }
+
+      .oi2{
+        justify-content: center;
+
+        
+        b{
+            i{
+                font-size: 40px;
+            }
+        }
+      }
+
+      .oi1:hover{
+        background-color: red;
+      }
+
+      .oi2:hover{
+        background-color: red;
+      }
 }
 #poi1{
     border: 1px solid black;
     background-image: url(images/team-1.jpg);
     width: 300px;
     height: 300px;
-    
-
-    .oi1{
-      justify-content: space-between;
-    }
-
 }
 
 #poi2{
@@ -449,16 +472,41 @@
     background-image: url(images/team-2.jpg);
     width: 300px;
     height: 300px;
-
-    .oi2{
-        justify-content: center;
-      }
 }
 #emerge{
     display: flex;
     justify-content: center;
     text-align: left;
     flex-wrap: wrap;
+
+    .oi3{
+        justify-content: center;
+
+        
+        b{
+            i{
+                font-size: 40px;
+            }
+        }
+      }
+
+      
+    .oi4{
+        justify-content: center;
+
+        
+        b{
+            i{
+                font-size: 40px;
+            }
+        }
+      }
+
+      .oi3:hover{
+        background-color: red;
+      } .oi4:hover{
+        background-color: red;
+      }
 
 }
 #poi3{
@@ -468,9 +516,7 @@
     height: 300px;
     
 
-    .oi3{
-      justify-content: center;
-    }
+   
 }
 #poi4{
     border: 1px solid black;
@@ -479,32 +525,74 @@
     height: 300px;
     
 
-    .oi4{
-      justify-content: center;
+}
+#int{
+    width: 100%;
+    height: 70vh;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    display: flex;
+    margin-top: 85px;
+    margin-bottom: 85px;
+
+    .int1{
+        background-image: url(images/contact.jpg);
+       margin-left: 25px;
+        width: 50%;
+        height: auto;
+
+    }
+
+    .int2{
+        form{
+            font-size: 50px;
+            margin: 45px;
+
+        }
     }
 }
-// #int{
-//     width: 100%;
-//     height: 100vh;
-//     display: flex;
-//     flex-wrap: wrap;
-   
-//     .int1{
-//         width: 100%;
-//         height: 70vh;
-//         border: 1px solid red;
-//         background-color: red;
-//         color: white;
-//         // background-image: url(images/contact.jpg);
-//         // background-position: left;
-//         // background-repeat: no-repeat;
-//         // background-size: contain;
-//         // display: flex;
-//     }
 
-//     .int2{
-//         display: block;
-//         justify-content: left;
-//         flex-wrap: wrap;
-//     }
-// }
+#checker{
+    display: none;
+}
+#bars{
+    display: none;  
+}
+
+
+@media (min-width:250px) and (max-width:1000px){
+
+    #head{
+        .he:hover{
+            color: cyan;
+        }
+    }
+   
+    #bars{
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 11px;
+        font-size: 40px;
+    }
+    .ad{
+        ul{
+        li{
+            a{
+                display: none;
+            }
+        }
+         }
+      }
+#checker:checked~.ad ul li a{
+    display: block;
+    position: absolute;
+    top: 70px;
+    font-size: 50px;
+}
+
+
+
+
+}

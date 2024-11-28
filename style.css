@@ -11,6 +11,7 @@
   flex-wrap: wrap;
   color: white;
   position: fixed;
+  z-index: 999;
   background-color: red;
   width: 100%;
   height: 80px;
@@ -76,7 +77,7 @@
 }
 #sec1 .se {
   width: 40%;
-  height: 569px;
+  height: 560px;
   margin-top: 15px;
   margin-bottom: 10px;
   background-image: url(images/hero.png);
@@ -491,14 +492,53 @@
     right: 10px;
     top: 11px;
     font-size: 40px;
+    z-index: 1000;
   }
-  .ad ul li a {
+  #head .ad {
     display: none;
+    position: absolute;
+    z-index: 100;
+    margin-left: 40% !important;
+    margin-top: 5% !important;
+    line-height: 40px;
   }
-  #checker:checked ~ .ad ul li a {
+  #head .ad ul {
+    position: absolute;
     display: block;
-    position: fixed;
-    top: 80px;
+    z-index: 99;
+  }
+  #checker:checked ~ #head .ad {
+    display: flex;
+    position: absolute;
+    top: 30px;
     font-size: 40px;
+    z-index: 10;
+    gap: 20px;
+    margin: auto;
+  }
+  #checker:checked ~ main #sec1 {
+    margin-top: 20%;
+  }
+  #sec1 {
+    height: 54vh;
+  }
+  #sec1 .fi {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 3%;
+  }
+  #sec2 {
+    margin-bottom: 150px;
+  }
+  #sec2 .ph {
+    width: 380px;
+    height: 49%;
+    background-size: contain;
+  }
+  #sec2 .hp {
+    font-size: 15px;
+  }
+  #talk2 {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */

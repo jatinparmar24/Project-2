@@ -523,16 +523,21 @@
     height: 54vh;
   }
   #sec1 .fi {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 5px;
     margin-top: 3%;
+  }
+  #sec1 .se {
+    position: absolute;
+    right: 2%;
+    overflow: hidden;
   }
   #sec2 {
     margin-bottom: 150px;
   }
   #sec2 .ph {
-    width: 380px;
-    height: 49%;
+    width: 341px;
+    height: 48%;
     background-size: contain;
   }
   #sec2 .hp {
@@ -540,5 +545,21 @@
   }
   #talk2 {
     font-size: 15px;
+  }
+  #last {
+    margin-bottom: 0%;
+    margin: auto;
+  }
+  #last .te {
+    font-size: 20px;
+  }
+  #last .tr b i {
+    font-size: 35px;
+  }
+  #last .tr b i:hover {
+    color: black;
+  }
+  #last .tw {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

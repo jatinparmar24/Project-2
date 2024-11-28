@@ -616,10 +616,16 @@
 #sec1{
     height: 54vh;
     .fi{
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 5px;
         margin-top: 3%;
 
+    }
+
+    .se{
+        position: absolute;
+        right: 2%;
+        overflow: hidden;
     }
 }
 
@@ -627,8 +633,8 @@
     margin-bottom: 150px;
     
     .ph{
-        width: 380px;
-        height: 49%;
+        width: 341px;
+        height: 48%;
         background-size: contain;
     
     }
@@ -641,6 +647,33 @@
     font-size: 15px;
 }
 
+#last{
+    margin-bottom: 0%;
+    margin: auto;
+
+    .te{
+        font-size: 20px;
+    }
+
+    .tr{
+       b{
+        i{
+            font-size: 35px;
+        }
+       }
+    }
+    .tr{
+        b{
+         i:hover{
+             color: black;
+         }
+        }
+     }  
+     .tw{
+        font-size: 20px;
+    }
+    
+}
 
 
 }

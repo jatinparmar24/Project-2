@@ -26,6 +26,10 @@
 #head .he:hover {
   color: blue;
 }
+#head .he span {
+  font-size: 60px;
+  color: goldenrod;
+}
 #head .ad ul {
   display: flex;
   justify-content: space-between;
@@ -77,7 +81,7 @@
 }
 #sec1 .se {
   width: 40%;
-  height: 560px;
+  height: 569px;
   margin-top: 15px;
   margin-bottom: 10px;
   background-image: url(images/hero.png);
@@ -511,13 +515,17 @@
     display: none;
     position: absolute;
     z-index: 100;
-    margin-left: 40% !important;
-    margin-top: 5% !important;
+    width: 116% !important;
+    margin-left: 0% !important;
+    margin-top: 7% !important;
     line-height: 40px;
   }
   #head .ad ul {
     position: absolute;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(rgb(204, 96, 96), rgb(207, 31, 31), rgb(68, 2, 2));
+    padding: 5px;
     z-index: 99;
   }
   #checker:checked ~ #head .ad {
@@ -530,7 +538,8 @@
     margin: auto;
   }
   #checker:checked ~ main #sec1 {
-    margin-top: 20%;
+    padding-top: 180px;
+    overflow: hidden;
   }
   #sec1 {
     height: 54vh;
@@ -609,12 +618,12 @@
     height: 60vh;
   }
   #merge .oi1 {
-    font-size: 10px;
+    font-size: 8px;
     display: flex;
     align-items: center;
   }
   #merge .oi2 {
-    font-size: 10px;
+    font-size: 8px;
     display: flex;
     align-items: center;
   }
@@ -623,12 +632,12 @@
     height: 60vh;
   }
   #emerge .oi3 {
-    font-size: 10px;
+    font-size: 8px;
     display: flex;
     align-items: center;
   }
   #emerge .oi4 {
-    font-size: 10px;
+    font-size: 8px;
     display: flex;
     align-items: center;
   }
